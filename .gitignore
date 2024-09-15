@@ -1,0 +1,19 @@
+# Ignore the target directory, which contains compiled files
+/target/
+
+# Ignore Cargo.lock (if you're building a library)
+# Cargo.lock
+
+# Ignore backup files created by editors
+*~
+*.swp
+*.swo
+
+# Ignore the node_modules directory (if you're using Node.js for some reason)
+node_modules/
+
+# Ignore the .env file (if you're using environment variables)
+.env
+
+# Ignore the .DS_Store file (macOS specific)
+.DS_Store
